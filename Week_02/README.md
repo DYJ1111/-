@@ -64,7 +64,7 @@
 - DFS
 
 ```python
-visited = set()  # 代表和树最大的区别，原因在于树没有环路，而图可能有环路
+visited = set()  # 代码和树最大的区别，原因在于树没有环路，而图可能有环路
 def DFS(node, visited):
     if node in visited:  # terminator
         return  # already visited
