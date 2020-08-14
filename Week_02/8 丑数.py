@@ -1,4 +1,7 @@
 def nthUglyNumber(self, n: int) -> int:
+    """
+    O(n), O(n)
+    """
     if n <= 0:
         return 0
 

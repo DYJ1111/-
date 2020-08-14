@@ -1,6 +1,7 @@
 def levelOrder(self, root: 'Node') -> List[List[int]]:
     """
     层次遍历，类似于BFS，使用队列辅助
+    O(n), O(n)
     """
     if not root:
         return []

@@ -16,6 +16,7 @@ def inorderTraversal(self, root: TreeNode) -> List[int]:
     
     """
     迭代： 先将所有的left node加入到stack中，再取出加入res，之后将right加入到stack中
+    O(n), O(n)
     """
     from collections import deque
     stack = deque()

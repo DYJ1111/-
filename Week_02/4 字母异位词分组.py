@@ -2,6 +2,7 @@ def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
     """
     method 1
     遍历 strs， sort 每个 str， 将 sorted str 作为 key 存入hash， 将 str 当作 value 存入
+    O(n^2 logN), O(n)
     """
     from collections import defaultdict
     d = defaultdict(list)
@@ -14,6 +15,7 @@ def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
     """
     method 2
     遍历 strs， 使用数组统计 str 中字母的个数，将数组作为 key 存入hash，将 str 作为 value 存入
+    O(n^2), O(n)
     """
     from collections import defaultdict
     dic = defaultdict(list)

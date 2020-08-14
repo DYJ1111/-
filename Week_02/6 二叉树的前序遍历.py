@@ -14,6 +14,7 @@ def preorderTraversal(self, root: TreeNode) -> List[int]:
     
     """
     迭代法： 使用 stack 代替递归，前序遍历的迭代法可参考层次遍历
+    O(n), O(n)
     """
     from collections import deque
     stack = deque()

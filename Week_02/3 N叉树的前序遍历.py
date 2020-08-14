@@ -11,6 +11,7 @@ def preorder(self, root: 'Node') -> List[int]:
     # return res
     """
     迭代法：参考二叉树前序遍历的迭代法
+    O(N), O(N)
     """
     if not root:
         return res

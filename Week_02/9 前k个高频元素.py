@@ -1,7 +1,11 @@
 def topKFrequent(self, nums: List[int], k: int) -> List[int]:
     """
-    前k个最小元素，大顶堆
-    前k个最大元素，小顶堆
+    前k个最小元素，自建大顶堆
+    前k个最大元素，自建小顶堆
+
+    若调用库函数，则最小用小顶堆，最大用大顶堆
+    调用库函数：O(nlogn), O(n)
+    自建堆： O(nlogK), O(n)
     """
     dic = {}
     for num in nums:

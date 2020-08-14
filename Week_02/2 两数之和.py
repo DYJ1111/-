@@ -1,10 +1,12 @@
 def twoSum(self, nums: List[int], target: int) -> List[int]:
     """
     1. 暴力，双循环
+    O(n^2)
     """
     """
     method 2
     遍历一次存入hash，再遍历第二次查询 target-num 是否存在于hash
+    O(n), O(n)
     """
     dic = {}  # key val: num , index
     for i in range(len(nums)):

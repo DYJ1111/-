@@ -2,6 +2,7 @@ def isAnagram(self, s, t):
     """
     method 1 
     比较 sort 后的 string 是否 ==
+    O(NlogN), O(1)
     """
     return sorted(s) == sorted(t)
  
@@ -9,6 +10,7 @@ def isAnagram(self, s, t):
     method 2
     两个 hash， 分别统计 s 和 t 中字母的个数
     比较两个 hash 是否 ==
+    O(N), O(N)
     """
     # if not s and not t:
     #     return True
