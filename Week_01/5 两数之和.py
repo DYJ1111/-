@@ -1,5 +1,8 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
+        '''
+        time: O(n), space: O(n)
+        '''
         if not nums:
             return []
 

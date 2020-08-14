@@ -1,5 +1,8 @@
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
+        """
+        O(T):O(N),O(s):O(1)
+        """
         if not nums:
             return 0
 
