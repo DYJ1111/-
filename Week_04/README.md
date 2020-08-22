@@ -72,15 +72,21 @@ def bfs(graph, i, j):
 ### 实战题目
 
 https://leetcode-cn.com/problems/binary-tree-level-order-traversal/#/description
+
 https://leetcode-cn.com/problems/minimum-genetic-mutation/#/description
+
 https://leetcode-cn.com/problems/generate-parentheses/#/description
+
 https://leetcode-cn.com/problems/find-largest-value-in-each-tree-row/#/description
 
 ### 课后作业
 
 https://leetcode-cn.com/problems/word-ladder/description/
+
 https://leetcode-cn.com/problems/word-ladder-ii/description/
+
 https://leetcode-cn.com/problems/number-of-islands/
+
 https://leetcode-cn.com/problems/minesweeper/description/
 
 ------
@@ -94,10 +100,15 @@ https://leetcode-cn.com/problems/minesweeper/description/
 ### 课后作业
 
 https://leetcode-cn.com/problems/lemonade-change/description/
+
 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/description/
+
 https://leetcode-cn.com/problems/assign-cookies/description/
+
 https://leetcode-cn.com/problems/walking-robot-simulation/description/
+
 https://leetcode-cn.com/problems/jump-game/
+
 https://leetcode-cn.com/problems/jump-game-ii/
 
 ------
@@ -142,12 +153,24 @@ def binary_search(alist, target):
 ### 实战题目
 
 https://leetcode-cn.com/problems/sqrtx/
+
 https://leetcode-cn.com/problems/valid-perfect-square/
 
 ### 课后作业
 
 https://leetcode-cn.com/problems/search-in-rotated-sorted-array/
+
 https://leetcode-cn.com/problems/search-a-2d-matrix/
+
 https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/
+
 使用二分查找，寻找一个半有序数组 [4, 5, 6, 7, 0, 1, 2] 中间无序的地方
+
+    可以将 **mid 跟 left** 的值进行对比
+
+    当 mid > left 时，说明 left ~ mid 有序
+        mid ~ right 无序
+        
+    当 mid < left 时，说明 mid ~ right 有序
+        left ~ mid 无序
 
